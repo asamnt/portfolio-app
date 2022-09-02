@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+html { 
+  background: url(../public/introbg.svg) no-repeat center center fixed; 
+  -webkit-background-size: cover;  
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* display: flex; */
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.flex-with-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

@@ -1,4 +1,30 @@
 .introduction {
-    height:100vh;
-    width:100%;
+
+}
+
+.introduction p{
+    color: 1572A1;
+}
+.introduction div h1{
+     font-weight: bold;
+     color: #1572A1;
+     font-size: 100px;
+}
+
+.introduction div {
+    width: 500px;
+}
+
+.introduction div h1:hover{
+    color: white;
+    cursor: default;
+    text-shadow: 0px 0px 10px #fff;
+ }
+
+.primary-button{
+    background-color:white;
+    height:45px;
+    border-radius:25px;
+    border:none;
+    width: 50%;
 }
